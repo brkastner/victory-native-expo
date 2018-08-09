@@ -5,19 +5,8 @@
 
 Install victory-native:
 ```sh
-$ npm install victory-native --save
+$ npm install https://github.com/brkastner/victory-native-expo --save
 ```
-
-Install react-native-svg:
-```sh
-$ npm install react-native-svg --save
-```
-
-Link react-native:
-```sh
-$ react-native link react-native-svg
-```
-**`victory-native@^30.0.0` requires `react-native-svg@6.1.x`or `react-native-svg@^6.5.0`**
 
 **Please see [Peer Dependencies and Version Requirements](#peer-dependencies-and-version-requirements) for requirements for previous versions of `victory-native`**
 
@@ -43,17 +32,8 @@ export default App;
 ### Peer Dependencies and Version Requirements
 
 **Note:** `victory-native` requires the following peer dependencies:
-  - `react-native-svg`
   - `react`
   - `react-native`
-
-**Note:** `react-native-svg` has strict version requirements for both `react` and `react-native`. Please match versions to those required by `react-native-svg`. See the up-to-date requirements on the [react-native-svg Readme][react-native-svg-readme].
-We encourage you to use the latest version of `react-native-svg` possible for your project, as `victory-native` issues are frequently solved by `react-native-svg` bugfixes.
-
-* `victory-native@^30.0.0` requires `react-native-svg@6.1.x` or `react-native-svg@^6.5.0`
-* `victory-native@^0.16.2` requires `react-native-svg@6.1.x` or `react-native-svg@^6.5.0`
-* ~~`victory-native@~0.16.0` requires `react-native-svg@6.0.0`~~ No longer supported
-* ~~`victory-native@~0.15.0` requires `react-native-svg@^5.0.0`~~ No longer supported
 
 ### Local Development and Demo
 
